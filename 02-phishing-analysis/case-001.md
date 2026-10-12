@@ -28,8 +28,9 @@ time - 2024-05-13 16:20:33
 Было проведенно более чательное расследование и обнаруженно в письме странный .zip файл,
 а также после его проверки на virustotal извлеченно нарушения и потенциальные вирус.
 
-! [Скриншот фишинг письма](/case-001-email.png)
-! [Проверка в virustotal](/images/case-001-virustotal.png)
+![Письмо из LetsDefend](images/case-001-email.png)
+
+![Проверка IP в VirusTotal](images/case-001-virustotal.png)
 
 Вердикт - true positive.
 
