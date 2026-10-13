@@ -1,3 +1,22 @@
+## Недели 1–2 — Alert triage
+
+Цель:
+- Научиться разбирать алерты и выносить verdict.
+
+Задачи:
+- Зарегистрироваться в LetsDefend.
+- Разобрать 15–20 security alerts.
+- Для каждого алерта выписывать IP, domain, URL, hash, user, hostname, process.
+- Определять verdict: True Positive, False Positive, Benign True Positive или Needs Investigation.
+- Связывать события с MITRE ATT&CK.
+- Сделать 2 подробных отчёта в `01-alert-triage/`.
+
+Результат:
+- 15–20 triage cases.
+- 2 подробных case reports.
+- Понимание IOC, evidence и escalation.
+
+
 # SOC: Неделя 1 — Alert triage
 
 Сегодня:
