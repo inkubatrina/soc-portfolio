@@ -1,42 +1,59 @@
 # SOC Analyst Portfolio
 
-Практическое портфолио по обучению SOC Analyst.
+Портфолио начинающего аналитика SOC / Blue Team. Здесь я собираю практические разборы алертов, phishing-писем и учебные лаборатории — с IOC, сопоставлением с MITRE ATT&CK и обоснованным вердиктом.
 
-## Цели
+**Цель:** Junior SOC Analyst / SOC Analyst L1
+**Начало обучения:** октябрь 2026
+**Формат:** бесплатные платформы и открытые материалы
 
-- Научиться проводить triage security alerts
-- Анализировать phishing emails и IOC
-- Работать с SIEM: Splunk, Elastic, Wazuh
-- Писать detection rules: Sigma и YARA
-- Освоить threat hunting и incident response
-- Автоматизировать SOC-задачи с SOAR, API и Python
+## Что уже сделано
 
-## Roadmap
+| # | Работа | Тип | Платформа | Ключевые навыки |
+|---|--------|-----|-----------|-----------------|
+| 1 | [Alert triage: попытка несанкционированного доступа (SOC325)](01-alert-triage/case-001.md) | Разбор алерта | LetsDefend | Triage, IOC, VirusTotal, AbuseIPDB, MITRE ATT&CK, verdict |
+| 2 | [Phishing: «Бесплатный купон на кофе»](02-phishing-analysis/case-001.md) | Анализ письма | LetsDefend | Анализ заголовков и вложений, IOC, VirusTotal, verdict |
 
-Основа обучения: SOC Roadmap 2026.
-
-## Структура портфолио
-
-- `01-alert-triage` — обработка и расследование security alerts
-- `02-phishing-analysis` — анализ фишинговых писем, URL и вложений
-- `03-siem-incident-response` — расследования в SIEM
-- `04-ransomware-forensics` — forensic-анализ и расследование ransomware
-- `05-threat-hunting` — гипотезы, запросы и hunt reports
-- `06-detection-engineering` — Sigma-правила и детекты
-- `07-soar-automation` — автоматизация SOC-процессов
+Оба кейса — учебные лаборатории. Реальные логи, персональные данные, токены и ключи в репозитории не публикуются.
 
 ## Навыки
 
-- Incident response
-- Alert triage
-- Phishing analysis
-- MITRE ATT&CK
-- SIEM
-- Detection engineering
-- Sigma
-- Threat hunting
-- SOAR automation
+**Применял на практике:**
+- Alert triage и определение verdict (True Positive / False Positive / Needs Investigation)
+- Сбор и анализ IOC: IP, домены, URL, хеши
+- Проверка репутации в VirusTotal и AbuseIPDB
+- Сопоставление активности с MITRE ATT&CK
+- Анализ phishing-писем, заголовков и вложений
 
-## Статус
+**Изучаю:**
+- SIEM: Splunk, Elastic, Wazuh
+- Detection engineering: Sigma, YARA
+- Threat hunting и incident response
+- Автоматизация SOC: SOAR, API, Python
 
-Начало обучения: октябрь 2026.
+## Структура репозитория
+
+| Папка | Содержание | Статус |
+|-------|------------|--------|
+| [`01-alert-triage`](01-alert-triage/) | Разбор и расследование security alerts | 1 кейс |
+| [`02-phishing-analysis`](02-phishing-analysis/) | Анализ фишинговых писем, URL и вложений | 1 кейс |
+| [`03-siem-incident-response`](03-siem-incident-response/) | Расследования в SIEM, timeline инцидента | в плане |
+| [`04-ransomware-forensics`](04-ransomware-forensics/) | Forensic-анализ и расследование ransomware | в плане |
+| [`05-threat-hunting`](05-threat-hunting/) | Гипотезы, запросы и hunt reports | в плане |
+| [`06-detection-engineering`](06-detection-engineering/) | Sigma- и YARA-правила, детекты | в плане |
+| [`07-soar-automation`](07-soar-automation/) | Автоматизация SOC-процессов | в плане |
+
+## План обучения
+
+- [Roadmap на 12 недель](notes/ROADMAP.md)
+- [Бесплатные ресурсы для обучения](notes/RESOURCES.md)
+- [Дневник обучения](notes/learning-log.md)
+
+## Принципы
+
+- Каждый кейс содержит IOC, ход расследования, вердикт и выводы.
+- Источники данных — только учебные лаборатории.
+- Отделяю факты от предположений и явно помечаю, что ещё в процессе.
+
+## Контакты
+
+- GitHub: [@inkubatrina](https://github.com/inkubatrina)
